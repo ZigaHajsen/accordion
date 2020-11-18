@@ -4,7 +4,7 @@ import { QuestionModel } from '../../models/question.model';
 import { Question } from '../';
 import { Main, Container, Title, Info } from './AppStyle';
 
-const App = () => {
+const App: React.FC = () => {
   const [questions, setQuestions] = useState<QuestionModel[]>(data);
 
   return (
